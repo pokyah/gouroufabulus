@@ -1,3 +1,14 @@
+# create a venv
+
+# register a payment method on huggingface
+
+# create a endpoint access token on huggingface via setup.py or manually online
+
+https://stackoverflow.com/questions/76176534/longer-responses-with-llamaindex
+https://github.com/run-llama/llama_index/discussions/10431
+https://huggingface.co/learn/cookbook/en/rag_llamaindex_librarian
+https://otmaneboughaba.com/posts/local-rag-api/
+
 # Code pour Gourou Fabulus, le chatbot numéro 1 sur la psycho évo en France
 
 Code utilisant llamaindex et streamlit pour créer un chatbot permettant d’interroger des documents (application RAG).

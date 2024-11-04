@@ -17,8 +17,15 @@ import random
 # - in a conda env: 'conda env config vars set OPENAI_API_KEY=api_key', then 'conda deactivate', then 'conda activate {env_name}'
 # run script with : streamlit run app.py
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+print(OPENAI_API_KEY)
+
 DATA_DIR = "./data"
-INDEX_DIR = "./storage"
+INDEX_DIR = "./storage/openai/"
 LLM_MODEL_NAME = "gpt-4o-mini"
 
 llm = OpenAI(model = LLM_MODEL_NAME)
